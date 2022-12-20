@@ -43,6 +43,14 @@
       <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\bHapticsLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="bolt">
+      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\DBF_Data\Managed\bolt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="bolt.user">
+      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\DBF_Data\Managed\bolt.user.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="MelonLoader">
       <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\MelonLoader.dll</HintPath>
       <Private>False</Private>
