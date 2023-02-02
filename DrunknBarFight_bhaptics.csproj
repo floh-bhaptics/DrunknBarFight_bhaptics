@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\0Harmony.dll</HintPath>
+      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\net35\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -40,7 +40,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="bHapticsLib">
-      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\bHapticsLib.dll</HintPath>
+      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\net35\bHapticsLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="bolt">
@@ -52,7 +52,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="MelonLoader">
-      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\MelonLoader.dll</HintPath>
+      <HintPath>F:\SteamLibrary\steamapps\common\Drunkn Bar Fight\MelonLoader\net35\MelonLoader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -79,7 +79,9 @@
   <ItemGroup>
     <Compile Include="DrunknBarFight_bhaptics.cs" />
     <Compile Include="MyBhapticsTactsuit.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
