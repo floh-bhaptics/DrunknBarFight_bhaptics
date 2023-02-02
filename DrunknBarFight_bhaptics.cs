@@ -9,7 +9,7 @@ using HarmonyLib;
 using MyBhapticsTactsuit;
 using Photon.Bolt;
 
-[assembly: MelonInfo(typeof(DrunknBarFight_bhaptics.DrunknBarFight_bhaptics), "DrunknBarFight_bhaptics", "1.0.0", "Florian Fahrenberger")]
+[assembly: MelonInfo(typeof(DrunknBarFight_bhaptics.DrunknBarFight_bhaptics), "DrunknBarFight_bhaptics", "2.0.0", "Florian Fahrenberger")]
 [assembly: MelonGame("KeithKurby", "Drunkn Bar Fight")]
 
 namespace DrunknBarFight_bhaptics
